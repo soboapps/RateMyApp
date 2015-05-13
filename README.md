@@ -5,11 +5,11 @@ Add a Dialog to your Android App asking your Customers to Rate Your App
 
 2. Add the following Strings (Modify to fit your needs)
 
-    <string name="dialog_message">Do you like My App? Please take the time to rate it.\n</string>
-    <string name="dialog_message_yes">Yes</string>
-    <string name="dialog_message_not_now">Not Now</string>
-    <string name="dialog_message_never">Never</string>
-    <string name="dialog_message_no_gp">You do not have Google Play installed</string>
+        <string name="dialog_message">Do you like My App? Please take the time to rate it.\n</string>
+        <string name="dialog_message_yes">Yes</string>
+        <string name="dialog_message_not_now">Not Now</string>
+        <string name="dialog_message_never">Never</string>
+        <string name="dialog_message_no_gp">You do not have Google Play installed</string>
     
 3. Under your Main Class Add...
 
