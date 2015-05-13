@@ -1,0 +1,11 @@
+<!-- English -->
+<resources>
+
+    <string name="app_name">My App</string>
+    <string name="dialog_message">Do you like OhFark? Please take the time to rate it.\n</string>
+    <string name="dialog_message_yes">Yes</string>
+    <string name="dialog_message_not_now">Not Now</string>
+    <string name="dialog_message_never">Never</string>
+    <string name="dialog_message_no_gp">You do not have Google Play installed</string>
+
+</resources>
