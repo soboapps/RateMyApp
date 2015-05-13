@@ -123,7 +123,7 @@ public class RateMyApp {
         }
 
         alertBuilder.setView(layout);
-        alertBuilder.setTitle("Rate " + appTitle);
+        alertBuilder.setTitle(ctx.getString(R.string.dialog_message_rate) + " " + appTitle);
         alertBuilder.setIcon(android.R.drawable.btn_star_big_on );
 
         //on clicking the "Yes" button => go to app's Google Play page
