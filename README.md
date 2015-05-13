@@ -11,7 +11,7 @@ Add a Dialog to your Android App asking your Customers to Rate Your App
     <string name="dialog_message_never">Never</string>
     <string name="dialog_message_no_gp">You do not have Google Play installed</string>
     
-3. in your Main Class Add...
+3. Under your Main Class Add...
 
       private RateMyApp rate;
 
