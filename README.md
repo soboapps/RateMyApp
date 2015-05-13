@@ -1,7 +1,7 @@
 # RateMyApp
 Add a Dialog to your Android App asking your Customers to Rate Your App
 
-1. Copy the RAteMyApp.class file to your Project (Don't foreget to Modify the Package Name at the Top)
+1. Copy the RateMyApp.class file to your Project (Don't foreget to Modify the Package Name at the Top)
 
 2. Add the following Strings (Modify to fit your needs)
 
