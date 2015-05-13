@@ -1,8 +1,9 @@
 # RateMyApp
 Add a Dialog to your Android App asking your Customers to Rate Your App
 
+1. Copy the RAteMyApp.class file to your Project (Don't foreget to Modify the Package Name at the Top)
 
-Add the following Strings (Modify to fit your needs)
+2. Add the following Strings (Modify to fit your needs)
 
     <string name="dialog_message">Do you like My App? Please take the time to rate it.\n</string>
     <string name="dialog_message_yes">Yes</string>
@@ -10,7 +11,7 @@ Add the following Strings (Modify to fit your needs)
     <string name="dialog_message_never">Never</string>
     <string name="dialog_message_no_gp">You do not have Google Play installed</string>
     
-in your Main Class
+3. in your Main Class
       // Under your    
       public class Main...
       
@@ -18,10 +19,11 @@ in your Main Class
       private RateMyApp rate;
 
     
-In onCreate Add...
+4. In onCreate Add...
     
         //Initialize the RateMyApp component
-        //set the title, days till the user is prompted and the no. of launches till the user is prompted
+        //rate = sets the title (getString(R.string.app_name), 3 (days until the user is prompted)
+        //, 3 (number of launches until the user is prompted)
         rate = new RateMyApp(this, getString(R.string.app_name), 3, 3);
         //make all text white
         rate.setTextColor(Color.WHITE);
