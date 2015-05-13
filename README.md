@@ -10,15 +10,15 @@ Add the following Strings (Modify to fit your needs)
     <string name="dialog_message_never">Never</string>
     <string name="dialog_message_no_gp">You do not have Google Play installed</string>
     
-    
-    in your Main Class
-      // Under    
-      public class Main extends Activity  {
+in your Main Class
+      // Under your    
+      public class Main...
       
-      // ADD 
+      // Add... 
       private RateMyApp rate;
+
     
-      In onCreate add...
+In onCreate Add...
     
         //Initialize the RateMyApp component
         //set the title, days till the user is prompted and the no. of launches till the user is prompted
